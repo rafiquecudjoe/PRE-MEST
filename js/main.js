@@ -46,3 +46,9 @@ console.log(myarray);
 mynames.push("Flipmone")
 
 console.log(mynames);
+
+
+//Objects
+
+let myobject = { name: "Kofi", age: 34, height: "34cm" }
+
