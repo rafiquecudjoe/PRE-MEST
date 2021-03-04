@@ -1,0 +1,51 @@
+:root {
+  --ratio: 9/16;
+  --width: 98vmin;
+  background-color: white;
+  --height: calc(var(--width) * var(var(--ratio)));
+}
+.main {
+  min-height: 98vh;
+  background-color: red;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.right {
+  background: blue;
+}
+.left {
+  /* background: goldenrod; */
+  display: flex;
+  flex-direction: column;
+  margin: 50px 20px 50px 60px;
+  justify-content: center;
+  /* color: white; */
+  align-items: center;
+  /* background: blueviolet; */
+  height: 98vmin;
+}
+.right img {
+  height: 98vmin;
+}
+button {
+  /* padding: 20px; */
+  /* width: 200px; */
+  outline: none;
+  font-size: 900;
+  letter-spacing: 5px;
+}
+.img,
+p,
+h1 {
+  margin-bottom: 40px;
+}
+
+.banner {
+  height: 98vmin;
+  background: blueviolet;
+  display: flex;
+  justify-content: space-between;
+}
